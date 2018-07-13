@@ -1,9 +1,10 @@
 class Dog
-  def initialize(name)
+  def initialize(name, mood)
     @name = name
+    @mood - mood
   end
   
-attr_reader :name
+attr_reader :name, :mood
 
 dog = Dog.new("Daisy")
 
