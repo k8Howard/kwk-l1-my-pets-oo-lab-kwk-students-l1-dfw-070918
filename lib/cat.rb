@@ -8,4 +8,4 @@ attr_reader :name, :mood
 
 end
 
-cat = Cat.new("crookshanks")
+cat = Cat.new("crookshanks", "playful")
