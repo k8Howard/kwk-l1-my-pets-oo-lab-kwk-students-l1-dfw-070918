@@ -5,8 +5,6 @@ class Dog
   
 attr_reader :name
 
-end
-
 dog = Dog.new("Daisy")
 
   # code goes here
